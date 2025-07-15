@@ -8,6 +8,9 @@ a{
   text-decoration: none;
   color: inherit;
 }
+a.active{
+  color: red;
+}
 
 .navbar{
   display: flex;
@@ -27,7 +30,6 @@ a{
   display: inline-block;
   margin: 0 10px;
   padding: 5px 10px;
-  color: #000;
 }
 
 .navbar button{
